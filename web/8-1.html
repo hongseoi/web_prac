@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>dom객체의 프로퍼티, 스타일, 이벤트리스너</h3>
+        <hr>
+        <p id="firstP" style="color:blue; background:yellow" onclick="this.style.color='teal'">
+        이것은 <span style="color: red;">문장입니다</span></p>
+
+        <script>
+            var p = document.getElementById("firstP");
+            var text = p.id;
+            text += p.tagName;
+            text += p.innerHTML;
+            text += p.style.color;
+            text += p.onclick;
+            text += p.childElementCount
+            text+= p.offsetHeight
+            
+        </script>
+    </body>
+</html>

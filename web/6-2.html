@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function over(obj){
+                obj.src="주소";
+            }
+            function out(obj){
+                obj.scr="주소2";
+            }
+        </script>
+
+        <h3>마우스를 올려 보세요</h3>
+        <img src="주소" alt="이미지" 
+        onmouseover="over(this)" 
+        onmouseout="out(this)">
+    </body>
+</html>
