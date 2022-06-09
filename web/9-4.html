@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <script>
+            var p;
+            function init(){
+                p = document.getElementById("p");
+                p.onmouseover = function(){
+                    this.style.backgroundcolor = "red";
+                }
+                p.addEventListener("mouseout",
+                function(){
+                    this.style.backgroundcolor="black";
+
+                }
+                );
+
+        </script>
+
+        <p id="p">마우스 올리면 색 변경</p>
+    </body>
+</html>
